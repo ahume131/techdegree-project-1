@@ -28,6 +28,8 @@ a:hover {
   background:#2f3e46;
   min-height: 30px;
   padding: 10px;
+  position: fixed;
+  top: 0;
   text-align: center;
 }
 .nav {
