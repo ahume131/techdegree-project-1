@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #cad2c5;
+  color: #52796f;
 }
 a:hover {
   color: #cad2c5;
@@ -28,7 +28,6 @@ a:hover {
   background:#2f3e46;
   min-height: 30px;
   padding: 10px;
-  position: fixed;
   text-align: center;
 }
 .nav {
@@ -70,7 +69,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #52796f;
+  border: 5px solid #52796f;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -102,6 +101,11 @@ header .profile-image:hover {
   border-color: #cad2c5;
 }
 
+.about-image {
+  width: 360px;
+  height: 240px;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -120,9 +124,14 @@ ul.skills {
   background: #2f3e46;
 }
 
-.hobby-image{
+.hobby-image {
   width: 150px;
   height: 150px;
+}
+
+.coming-soon-image {
+  width: 360px;
+  height: 240px;
 }
 
 footer {
@@ -159,6 +168,7 @@ a.social {
 
 a.linkedin {
   background-image: url(images/linkedin.svg);
+  background-repeat: no-repeat;
 }
 a.github {
   background-image: url(images/github.svg);
